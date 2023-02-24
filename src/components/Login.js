@@ -31,7 +31,7 @@ function Login({ email, password, setLoggedIn, setNavigate }) {
             <br />
             Don't have an account ?
             <button id='login-to-register' onClick={() => setNavigate(false)}><Link to="/Register">Register here ..</Link></button>
-
+            <button id='login-submit' onClick={() => setNavigate(false)}><Link to="/dashboard">Go to dashboard</Link></button>
 
         </div>
     )

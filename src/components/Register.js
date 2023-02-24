@@ -23,6 +23,7 @@ function Register({ emailChange, passwordChange, setNavigate }) {
       <h1 id='register-tag'>Register</h1>
      
         <form onSubmit={handleSubmitBtn}>
+          
           <h3>Email</h3>
           <input placeholder='abc@gmail.com' type="text" name='name' id='register-email'
             value={newEmail} onChange={(e) => setNewEmail(e.target.value)} />
